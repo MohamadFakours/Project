@@ -3,17 +3,18 @@
     --black: black;
     --hotpink: hotpink;
 }
+
 .mix-color {
-    background: linear-gradient(to right,white,rebeccapurple,deeppink, mediumpurple,lightskyblue, blue, white);
+    background: linear-gradient(to right, white, rebeccapurple, deeppink, mediumpurple, blue, lightskyblue, white);
     position: relative;
     color: var(--black);
     font-family: Arial, sans-serif;
     height: 125px;
     overflow: hidden;
 }
+
 .mix-color::before,
-.mix-color::after
-{
+.mix-color::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -24,85 +25,93 @@
     z-index: 1;
     pointer-events: none;
 }
-.mix-color::after
-{
+
+.mix-color::after {
     background: radial-gradient(ellipse at bottom right, white 0%, transparent 70%),
     radial-gradient(ellipse at bottom center, white 0%, transparent 30%);
     right: 0;
     left: auto;
 }
-.btn1
-{
+
+.btn1 {
     border-color: #6f42c1;
 }
-.bi-globe
-{
+
+.bi-globe {
     color: #6f42c1;
 }
-.btn2
-{
+
+.btn2 {
     border-color: #0b5ed7;
     background-color: lightcyan;
 }
-.bi-linkedin
-{
+
+.bi-linkedin {
     color: #0b5ed7;
 }
-.btn3
-{
+
+.btn3 {
     border-color: orangered;
     background-color: lightyellow;
 }
-.figma
-{
+
+.github {
+    color: black;
+}
+
+.figma {
     color: orangered;
 }
-li::marker
-{
+
+li::marker {
     content: "▫️";
     font-size: large;
 }
-.bi-envelope-fill, .bi-link-45deg
-{
+
+.bi-envelope-fill, .bi-link-45deg {
+    color: black;
+}
+
+.bi-envelope-fill, .bi-link-45deg {
     text-decoration-color: mediumpurple;
 }
-.bi-calendar4-event
-{
-    line-height: 1; !important;
+
+.bi-calendar4-event {
+    line-height: 1;
+!important;
 }
-    @media (min-width: 768px)
-    {
-        .move1
-        {
-            left: -22px;
-        }
-        .move2
-        {
-            left: -39px;
-        }
-        .up1
-        {
-            top: -10px;
-        }
-        .up2
-        {
-            top: -10px;
-        }
-        .up3
-        {
-            top: -20px;
-        }
-        .up4
-        {
-            top: -30px;
-        }
-        .up5
-        {
-            top: -10px;
-        }
+
+@media (min-width: 768px) {
+    .move1 {
+        left: -22px;
     }
-a:hover
-{
-    color: red;
-    text-decoration-color: yellow;
+
+    .move2 {
+        left: -39px;
+    }
+
+    .up1 {
+        top: -10px;
+    }
+
+    .up2 {
+        top: -10px;
+    }
+
+    .up3 {
+        top: -20px;
+    }
+
+    .up4 {
+        top: -30px;
+    }
+
+    .up5 {
+        top: -10px;
+    }
+}
+
+a:hover {
+    color: forestgreen;
+    text-decoration-color: #d63384;
 }
