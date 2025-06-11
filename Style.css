@@ -120,3 +120,6 @@ a:hover {
     width: 80%;
     max-width: 1050px;
 }
+body {
+    overflow-x: hidden;
+}
