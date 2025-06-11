@@ -115,3 +115,8 @@ a:hover {
     color: forestgreen;
     text-decoration-color: #d63384;
 }
+.responsive-border
+{
+    width: 80%;
+    max-width: 1050px;
+}
