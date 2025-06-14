@@ -178,7 +178,11 @@ ul li::before {
     .col-3
     {
         left: -85px;
-        bottom: -9px;
+        bottom: -7px;
+    }
+    .ms-1
+    {
+        top: -1px;
     }
 }
 @media (max-width: 768px) {
